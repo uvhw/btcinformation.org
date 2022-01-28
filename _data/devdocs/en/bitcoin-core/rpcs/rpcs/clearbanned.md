@@ -29,13 +29,11 @@ The `clearbanned` RPC {{summary_clearBanned}}
 
 *Example from Bitcoin Core 0.13.1*
 
-Clears the ban list.
-
 {% highlight bash %}
 bitcoin-cli clearbanned
 {% endhighlight %}
 
-Result (no output from `bitcoin-cli` because result is set to `null`).
+Result (output from `bitcoin-cli` because result is set to `null`).
 
 *See also*
 
